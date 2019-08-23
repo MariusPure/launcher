@@ -1,0 +1,144 @@
+body {
+  background: url("/images/overlay.png");
+}
+.text-orange {
+  color: #fe604e !important;
+}
+.icon-col{
+  color: #949395;
+}
+
+.mr-8
+{
+  margin-right: 80px !important;
+}
+.noise {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn1.umg3.net/684-cdn/noise.gif);
+  background-repeat: repeat;
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+}
+.min-mt
+{
+  margin-top: -25px;
+}
+.v-divider{
+  margin-left:5px;
+  margin-right:5px;
+  width:1px;
+  height: 500px;
+  border-right: 1px solid #fe604e;
+}
+
+.status-mx
+{
+  max-width: 16.3rem;
+}
+
+.card-launcher
+{
+  background: #202125;
+}
+.vl {
+  border-right: 1px solid #fe604e;
+  height: 45px;
+  margin-right: 30px;
+
+}
+.text-launcher {
+  font-size: 11px;
+  font-weight: 500;
+}
+.card-body{
+  padding: 0.7rem;
+  border-radius: 0.25rem;
+}
+.card-select {
+    border: 1px solid #fe604e;
+}
+.alert-orange {
+  color: white;
+  background-color: #fe604e;
+  border-color: #c74739;
+}
+.alert-orange hr {
+  border-top-color: #c74739;
+}
+.alert-orange .alert-link {
+  color: #c74739;
+}
+
+a.card {
+  color: inherit;
+  text-decoration: inherit;
+}
+a.card button {
+  z-index: 1;
+}
+
+a.card.disabled,
+a.card[disabled] {
+  pointer-events: none;
+  opacity: .8;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 75px;
+  line-height: 60px;
+}
+a.icon 
+{
+  color: #949395;
+}
+
+a.icon:hover
+{
+  color: #fe604e;
+}
+
+a.navigation-menu 
+{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+/* btn - outline - orange*/
+.btn-outline-orange {
+  color: #fe604e;
+  border-color: #fe604e;
+}
+.btn-outline-orange:hover {
+  color: #fff;
+  background-color: #fe604e;
+  border-color: #c74739;
+}
+.btn-outline-orange.focus,
+.btn-outline-orange:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+.btn-outline-orange.disabled,
+.btn-outline-orange:disabled {
+  color: #fe604e;
+  background-color: transparent;
+}
+.btn-outline-orange:not(:disabled):not(.disabled).active,
+.btn-outline-orange:not(:disabled):not(.disabled):active,
+.show > .btn-outline-orange.dropdown-toggle {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-outline-orange:not(:disabled):not(.disabled).active:focus,
+.btn-outline-orange:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-orange.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
